@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.26.1",
     "mdb-react-ui-kit": "^3.0.0",
     "mongoose": "^6.2.9",
     "next": "12.1.4",
