@@ -16,7 +16,7 @@ const index = ({heros}) => {
                     Reveal Identity
                   </MDBCardText>
                 <Link href={`/${hero._id}`}><MDBBtn className='mx-2'>View Hero</MDBBtn></Link>
-                <Link href={'/'}><MDBBtn>Edit Hero</MDBBtn></Link>
+                <Link href={`/${hero._id}/edit`}><MDBBtn>Edit Hero</MDBBtn></Link>
               </MDBCardBody>
           </MDBCard>
           )
